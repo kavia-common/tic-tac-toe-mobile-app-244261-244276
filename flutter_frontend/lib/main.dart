@@ -11,17 +11,17 @@ class TicTacToeApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Light blue color, use sky-100: #e0f2fe as a pleasant light blue
-    const lightBlueBackground = Color(0xFFe0f2fe);
+    // Light pink color, use pink-50: #ffe4ec as a pleasant light pink
+    const lightPinkBackground = Color(0xFFFFE4EC);
     return MaterialApp(
       title: 'Tic Tac Toe',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.blue,
-          surface: lightBlueBackground,
-          background: lightBlueBackground,
+          seedColor: Colors.pink,
+          surface: lightPinkBackground,
+          background: lightPinkBackground,
         ),
-        scaffoldBackgroundColor: lightBlueBackground,
+        scaffoldBackgroundColor: lightPinkBackground,
         useMaterial3: true,
       ),
       darkTheme: ThemeData.dark(),
